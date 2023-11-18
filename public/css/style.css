@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fa-solid {
+    color: white;
+}
+
+#hide {
+    display: none;
+}
+
+.hambar {
+    z-index: 9999;
+}
+
+.custom-select {}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.home-section {
+    height: 100vh;
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+.heading-main {
+    margin: 12px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+
+}
+
+
+
+.links {
+    position: relative;
+    display: none;
+    background-color: white;
+    height: 100vh;
+    padding: 12px;
+    width: 13rem;
+}
+.links h2 {
+    font-weight: 400;
+}
+.links ul {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    margin-top: 2rem;
+}
+
+.links ul li {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hambar {
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    padding: 15px;
+    margin: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.heading-main h1 {
+    font-size: 1.5rem;
+    background-color: #111;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.home-center {
+    display: block;
+    width: 100%;
+}
+
+.heading-main-home {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    font-size: 7rem;
+    color: #111;
+    text-align: center;
+    width: 100%;
+}
+
+.heading__sub-main {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    font-size: 2rem;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+
+}
+
+.add-img-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+}
+
+.add-btn {
+    padding: 1rem 2rem;
+    border: 2px solid #615a30;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #111;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.add-btn:hover {
+    background-color: #615a30;
+    border: 2px solid #615a30;
+    color: #fff;
+}
+
+.main-container {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category-heading {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.img-container {
+    width: 20rem;
+
+    overflow: hidden;
+    object-fit: contain;
+    -o-object-fit: contain;
+    border-radius: 5px;
+    margin: 12px;
+}
+
+.img-main-container p {
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.img-container img {
+    width: 100%;
+
+}
+
+#form {
+    background-image: url('https://marketplace.canva.com/EAEpYHjCl1g/1/0/1600w/canva-blue-beige-modern-inspirational-photo-collage-desktop-wallpaper-j-qaFT3kgtU.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-main-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 75%;
+    background-color: transparent;
+    padding: 2rem 0;
+}
+
+.heading_contact {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+.heading_contact h2{
+    font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.form-cat-btn {
+    display: flex;
+
+}
+
+.form-inner {
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: auto 1rem;
+   
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.form_label {
+    color: #111;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.form__field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    font-size: .9rem;
+    font-family: 'Pacifico', cursive;
+    background-color: #eee;
+    outline: none;
+}
+
+#add-category {
+    cursor: pointer;
+    margin-left: 12px;
+    display: block;
+    border: none;
+    background-color: #842306;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.adding-category {
+    cursor: pointer;
+    margin-top: 12px;
+    display: block;
+    padding: 12px;
+    font-family: 'pacifico', sans-serif;
+    border: none;
+    background-color: #842306;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.submit-btn {
+    margin-top: 2rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #842306;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.submit-btn:hover {
+    background-color: transparent;
+    border: 1px solid #842306;
+    color: #842306;
+}
+
+input::file-selector-button {
+    background-color: #842306;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.footer-section {
+    text-align: center;
+    padding: 3rem 0;
+
+}
+
+.footer-section h3 {
+    font-weight: 400;
+}
+
+@media screen and (max-width:800px) {
+    .heading-main-home {
+        font-size: 5rem;
+    }
+
+    .heading__sub-main {
+        font-size: 1rem;
+        top: 55%;
+    }
+
+    .add-img-btn {
+
+        top: 65%;
+    }
+
+    .form-main-container {
+        padding: 2rem 0;
+    }
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-inner {
+        margin-bottom:  1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .heading-main-home {
+        font-size: 3rem;
+    }
+
+    .heading__sub-main {
+        font-size: 1rem;
+        top: 50%;
+    }
+
+    .add-img-btn {
+        top: 60%;
+    }
+
+    .add-btn {
+        padding: .5rem 1rem;
+    }
+
+    .form-main-container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .heading_contact {
+        font-size: 1.2rem;
+    }
+
+    .submit-btn {
+        padding: .5rem 2rem;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .form-inner {
+        padding: 4rem .5rem;
+    }
+}
